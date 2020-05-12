@@ -1,12 +1,51 @@
-body {
-  background-color: rgb(25, 25, 25, 0.75);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 2rem 4rem;
+}
+
+.gradient {
   height: 100vh;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100vw;
+
+  /* Colors generated on: https://colorhunt.co/palette/179481 */
+  background: linear-gradient(45deg, #343837, #03719c, #0f9b8e, #fbc490);
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
 }
 
 .menu {
-  background-color: white;
+  background-color: #03719c;
+  height: 30px;
+  padding-top: 5px;
 }
 
 .menu ul {
@@ -20,6 +59,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
