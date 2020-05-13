@@ -5,3 +5,7 @@
 Abordagem inicial de HTML e CSS, com explicações claras sobre alguns seletores CSS e seus efeitos.
 
 Adicionei o background animado com CSS, seguindo o [post](https://willianjusten.com.br/criando-um-background-com-gradient-animado/) do blog do [Willian Justen](https://github.com/willianjusten)
+
+## Aula 2
+
+Detalhe das propriedades CSS flexbox e configuração do site responsivo.
